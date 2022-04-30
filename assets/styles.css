@@ -1,0 +1,29 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #B1D0E0;
+    background: #406882;
+}
+
+.intro {
+    text-align: center;
+}
+
+.projects-grid {
+    justify-self: center;
+    display: grid;
+}
+
+
+
+
+.project-image {
+    padding: 4%;
+    border-radius: 5px;
+}
+
+.project-image:hover {}
+
+.project-image-wrapper {
+    justify-self: center;
+    padding: 4%;
+}
