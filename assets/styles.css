@@ -8,7 +8,29 @@ header {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border: darkslategrey;
+    z-index: 0;
+    background-color: antiquewhite;
+    color: darkseagreen;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: lightslategrey;
+    color: antiquewhite;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 .profile-picture {
@@ -21,18 +43,6 @@ header {
     text-align: center;
 }
 
-.sidebar {
-    background-color: lightslategrey;
-    color: antiquewhite;
-    height: 100%;
-    width: 175px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    text-align: center;
-}
-
 .projects-grid {
     justify-self: center;
     display: grid;
@@ -40,16 +50,17 @@ header {
 
 .project-image {
     padding: 4%;
-    border-radius: 5px;
+    border-radius: 15px;
     opacity: 70%;
 }
 
 .project-image:hover {
     opacity: 100%;
     box-shadow: 10px solid black;
+    filter: brightness(125%);
 }
 
-/* .project-image-wrapper {
+.project-image-wrapper {
     justify-self: center;
     padding: 4%;
-} */
+}
