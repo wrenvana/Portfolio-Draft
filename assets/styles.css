@@ -4,6 +4,15 @@ body {
     background: #406882;
 }
 
+header {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    text-align: center;
+}
 .intro {
     text-align: center;
 }
@@ -13,15 +22,16 @@ body {
     display: grid;
 }
 
-
-
-
 .project-image {
     padding: 4%;
     border-radius: 5px;
+    opacity: 70%;
 }
 
-.project-image:hover {}
+.project-image:hover {
+    opacity: 100%;
+    box-shadow: 10px solid black;
+}
 
 .project-image-wrapper {
     justify-self: center;
