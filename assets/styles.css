@@ -10,7 +10,7 @@ header {
     margin: 0 auto;
     z-index: 0;
     background-color: antiquewhite;
-    color: #F59D33;
+    color: #eeb167;
 }
 
 nav {
@@ -32,7 +32,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: seagreen;
+    color: rgb(121, 175, 145);
     font-weight: bold;
     font-size: large;
 }
@@ -62,6 +62,7 @@ aside {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    box-shadow: 3px 3px 1.5px antiquewhite;
 }
 
 #projects {
@@ -126,20 +127,14 @@ main {
     padding: 4%;
 }
 
-@media screen and (max-width: 900px) {
-    .row-1 {
-        width: 50%;
+@media screen and (max-width: 500px) {
+    .sidebar {
+        display: none;
     }
 }
 
-@media screen and (max-width: 900px) {
-    .row-2 {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .banner {
-        width: 50%;
+@media screen and (max-width: 500px) {
+    nav {
+        display: none;
     }
 }
