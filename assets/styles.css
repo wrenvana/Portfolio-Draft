@@ -20,6 +20,11 @@ nav {
     top: 35px;
 }
 
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     list-style: none;
 }
@@ -49,7 +54,7 @@ a {
     height: 150px;
 }
 
-.projects {
+#projects {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -66,7 +71,6 @@ a {
 }
 
 .banner-image {
-    padding: 4%;
     border-radius: 40px;
 }
 
