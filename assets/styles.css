@@ -10,7 +10,14 @@ header {
     margin: 0 auto;
     z-index: 0;
     background-color: antiquewhite;
-    color: darkseagreen;
+    color: #F59D33;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 35px;
 }
 
 ul {
@@ -43,7 +50,10 @@ a {
 }
 
 .projects {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    margin-top: 2.5%;
 }
 
 .banner {
@@ -70,6 +80,14 @@ a {
     justify-content: center;
     display: flex;
     margin: 0 auto;
+    flex-direction: row;
+}
+
+main {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-top: 225px;
 }
 
 .project-image {
@@ -94,26 +112,20 @@ a {
     padding: 4%;
 }
 
-/* Tablets */
-/* @media screen and (max-width: 992px) {
-    img {
-        width: 80%;
-        height: 80%;
+@media screen and (max-width: 900px) {
+    .row-1 {
+        width: 50%;
     }
-} */
+}
 
-/* Large smartphones */
-/* @media screen and (max-width: 768px) {
-    img {
-        width: 65%;
-        height: 65%;
+@media screen and (max-width: 900px) {
+    .row-2 {
+        width: 50%;
     }
-} */
+}
 
-/* Small smartphones */
-/* @media screen and (max-width: 576px) {
-    img {
-        width: 45%;
-        height: 45%;
+@media screen and (max-width: 900px) {
+    .banner {
+        width: 50%;
     }
-} */
+}
