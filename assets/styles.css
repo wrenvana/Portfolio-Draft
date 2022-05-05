@@ -7,10 +7,11 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     z-index: 0;
     background-color: antiquewhite;
     color: #eeb167;
+    margin-top: -8px;
+    margin-right: -8px;
 }
 
 nav {
@@ -120,21 +121,23 @@ main {
 .row-1 {
     justify-self: center;
     padding: 4%;
+    margin-right: 60px;
 }
 
 .row-2 {
     justify-self: center;
     padding: 4%;
+    margin-left: 60px;
 }
 
-@media screen and (max-width: 500px) {
-    .sidebar {
+@media only screen and (max-width: 825px) {
+    header {
         display: none;
     }
 }
 
-@media screen and (max-width: 500px) {
-    nav {
+@media only screen and (max-width: 500px) {
+    .sidebar {
         display: none;
     }
 }
