@@ -66,6 +66,11 @@ aside {
     box-shadow: 3px 3px 1.5px antiquewhite;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+}
+
 #projects {
     display: flex;
     flex-wrap: wrap;
